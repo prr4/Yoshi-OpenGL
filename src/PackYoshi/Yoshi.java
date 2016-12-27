@@ -19,7 +19,7 @@ public class Yoshi {
         glu.gluQuadricOrientation(gluq, GLU.GLU_OUTSIDE);
         glu.gluQuadricNormals(gluq, GLU.GLU_SMOOTH);
         
-        //andar 1
+        //nivel 1
         //peca 1
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, 3.0f, 0.0f);
@@ -55,7 +55,7 @@ public class Yoshi {
         pecas.peca1x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 2
+        //nivel 2
         //peca 6
         gl.glPushMatrix();
         gl.glTranslatef(-2.0f, 0.0f, 1.0f);
@@ -98,7 +98,7 @@ public class Yoshi {
         pecas.peca2x8 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 3
+        //nivel 3
         //peca 12
         gl.glPushMatrix();
         gl.glTranslatef(-2.0f, 0.0f, 2.0f);
@@ -160,7 +160,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 4
+        //nivel 4
         //peca 20
         gl.glPushMatrix();
         gl.glTranslatef(3.0f, 0.0f, 3.0f);
@@ -222,7 +222,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 5
+        //nivel 5
         //peca 28
         gl.glPushMatrix();
         gl.glTranslatef(3.0f, 0.0f, 4.0f);
@@ -267,7 +267,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 6
+        //nivel 6
         //peca 33
         gl.glPushMatrix();
         gl.glTranslatef(3.0f, 0.0f, 5.0f);
@@ -305,7 +305,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 7
+        //nivel 7
         //peca 37
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, 0.0f, 6.0f);
@@ -334,7 +334,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 8
+        //nivel 8
         //peca 41
         gl.glPushMatrix();
         gl.glTranslatef(3.0f, 1.0f, 7.0f);
@@ -351,7 +351,7 @@ public class Yoshi {
         pecas.peca1x4 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //pes esquerdo
+        //pe esquerdo
         //peca 43
         gl.glPushMatrix();
         gl.glTranslatef(-2.0f, -1.0f, -3.0f);
@@ -373,7 +373,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //pes direito
+        //pe direito
         //peca 46
         gl.glPushMatrix();
         gl.glTranslatef(2.0f, -1.0f, -3.0f);
@@ -395,7 +395,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 8
+        //nivel 8
         //peca 49
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, -4.0f, 8.0f);
@@ -453,7 +453,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 9
+        //nivel 9
         //peca 57
         gl.glPushMatrix();
         gl.glTranslatef(5.0f, 0.0f, 9.0f);
@@ -517,7 +517,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 10
+        //nivel 10
         //peca 65
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, 4.0f, 10.0f);
@@ -618,7 +618,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 11
+        //nivel 11
         //peca 79
         gl.glPushMatrix();
         gl.glTranslatef(2.0f, -6.0f, 11.0f);
@@ -693,7 +693,7 @@ public class Yoshi {
         pecas.peca1x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 12 
+        //nivel 12 
         //peca 89
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, -6.0f, 12.0f);
@@ -777,7 +777,7 @@ public class Yoshi {
         pecas.peca1x1 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 13 
+        //nivel 13 
         //peca 100
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, -5.0f, 13.0f);
@@ -852,7 +852,7 @@ public class Yoshi {
         pecas.peca2x4 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 14
+        //nivel 14
         //peca 110
         gl.glPushMatrix();
         gl.glTranslatef(0.0f, 3.0f, 14.0f);
@@ -917,7 +917,7 @@ public class Yoshi {
         pecas.peca2x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 15
+        //nivel 15
         //peca 119
         gl.glPushMatrix();
         gl.glTranslatef(4.0f, 0.0f, 15.0f);
@@ -950,7 +950,7 @@ public class Yoshi {
         pecas.peca1x4 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 16
+        //nivel 16
         //peca 123
         gl.glPushMatrix();
         gl.glTranslatef(4.0f, 0.0f, 16.0f);
@@ -975,7 +975,7 @@ public class Yoshi {
         pecas.peca1x2 (gl, glu, gluq);
         gl.glPopMatrix();
         
-        //andar 17
+        //nivel 17
         //peca 126
         gl.glPushMatrix();
         gl.glTranslatef(-1.0f, 0.0f, 17.0f);
